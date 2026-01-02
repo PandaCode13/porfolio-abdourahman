@@ -1,0 +1,9 @@
+{
+  "name": "ARAA Portfolio",
+  "short_name": "ARAA",
+  "description": "Portfolio de Abdoul-Rahman Abdallah Aden - Tech Lead DevOps",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb"
+}

@@ -22,8 +22,19 @@
         <a href="#experiences"><i class="fas fa-briefcase"></i> Expériences</a>
         <a href="#formations"><i class="fas fa-graduation-cap"></i> Formation</a>
         <a href="#benevolat"><i class="fa-solid fa-hand-holding-heart"></i> Bénévolat</a>
+        <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
       </ul>
     </nav>
+
+            <div class="language-selector">
+  <select id="language-select">
+    <option value="fr">🇫🇷 Français</option>
+    <option value="en">🇬🇧 English</option>
+    <option value="es">🇪🇸 Español</option>
+    <option value="ar">🇸🇦 العربية</option>
+    <option value="zh">🇨🇳 中文</option>
+  </select>
+</div>
 
     <div class="sup">
       <a href="#" class="download-link"><i class="fas fa-download"></i> Télécharger CV</a>
@@ -56,12 +67,12 @@
           </div>
 
           <div class="cta-buttons">
-            <button class="btn btn-primary">
-              <i class="fas fa-rocket"></i> Découvrir mes projets
-            </button>
-            <button class="btn btn-secondary">
+            <a class="btn btn-primary" href="#competences">
+              <i class="fas fa-rocket"></i> Découvrir mes compétences
+            </a>
+            <a class="btn btn-secondary" href="#contact">
               <i class="fas fa-comments"></i> Discutons de votre projet
-            </button>
+            </a>
           </div>
 
           <div class="social-media">
@@ -772,6 +783,65 @@
     
   </section>
 
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Contactez-moi</h2>
+        <p class="subtitle">Je suis ouvert à de nouvelles opportunités et collaborations. N'hésitez pas à me contacter pour discuter de projets passionnants ou pour toute question.</p>
+      </div>
+      <div class="elementsContacts">
+        <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>
+            <a href="mailto:abdoulrahmana82@gmail.com">
+              abdoulrahmana82@gmail.com
+            </a>
+          </span>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <span>
+            <a href="tel:+33780453807">
+              +33 07 80 45 38 07
+            </a>
+          </span>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Amiens, Haut-de-France, France</span>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form id="contact-form">
+  <div class="form-group">
+    <label>Nom :</label>
+    <input type="text" id="nom_user" required>
+  </div>
+
+  <div class="form-group">
+    <label>Prénom :</label>
+    <input type="text" id="prenom_user" required>
+  </div>
+
+  <div class="form-group">
+    <label>Email :</label>
+    <input type="email" id="email_user" required>
+  </div>
+
+  <div class="form-group">
+    <label>Message :</label>
+    <textarea id="message_user" rows="5" required></textarea>
+  </div>
+
+  <button type="submit">Envoyer</button>
+</form>
+
+      </div>
+    </div>
+    
+  </section>
+
   <!-- FOOTER SECTION -->
 <footer class="footer-section">
   <div class="container">
@@ -851,5 +921,7 @@
     </div>
   </div>
 </footer>
+
+<script src="script.js"></script>
 </body>
 </html>

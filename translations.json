@@ -1,0 +1,1085 @@
+{
+  "fr": {
+    "header": {
+      "nav": {
+        "home": "Accueil",
+        "about": "À propos",
+        "skills": "Compétences",
+        "experiences": "Expériences",
+        "education": "Formation",
+        "volunteering": "Bénévolat",
+        "contact": "Contact"
+      },
+      "buttons": {
+        "downloadCV": "Télécharger CV",
+        "contactMe": "Me contacter",
+        "cv1": "CV Professionnel 1",
+        "cv2": "CV Professionnel 2"
+      }
+    },
+    "home": {
+      "title": "Je suis",
+      "roles": ["DevOps Engineer & Scrum Master"],
+      "description": "Tech Lead DevOps/DeSecOps, consultant Microsoft Power Platform et en automatisation CI/CD, orchestration et monitoring, j'accompagne aussi les équipes agiles en tant que Scrum Master pour délivrer des solutions Cloud Native performantes, sécurisées et innovantes.",
+      "buttons": {
+        "discoverSkills": "Découvrir mes compétences",
+        "discussProject": "Discutons de votre projet"
+      },
+      "stats": {
+        "projects": "Projets réalisés",
+        "experience": "Années d'expérience",
+        "satisfaction": "Satisfaction client"
+      }
+    },
+    "about": {
+      "title": "À propos de moi",
+      "subtitle": "Tech Lead DevOps expérimenté en automatisation CI/CD, orchestration Docker/Kubernetes et développement Microsoft Power Platform",
+      "sections": {
+        "career": "Parcours professionnel",
+        "personalInfo": "Informations personnelles",
+        "personalGoal": "Objectif Personnel",
+        "values": "Valeurs Professionnelles",
+        "professionalGoal": "Objectif Professionnel"
+      },
+      "info": {
+        "location": "Localisation",
+        "nationality": "Nationalité",
+        "languages": "Langues"
+      },
+      "values": {
+        "technical": "Excellence Technique & DevOps",
+        "leadership": "Leadership Agile & Collaboration",
+        "innovation": "Innovation & Adaptabilité",
+        "social": "Impact Social & Responsabilité"
+      },
+      "content": {
+        "careerText": "Fort d'une formation <strong>DevOps</strong> avancée et d'une expérience significative chez <strong>Teknosure et Talan</strong>, je me spécialise dans le leadership technique DevOps, l'automatisation CI/CD et le développement de solutions Microsoft Power Platform.<br><br>Mon expertise couvre l'ensemble de la chaîne DevOps moderne, avec une maîtrise particulière de l'orchestration de conteneurs (Docker, Kubernetes), des clouds (Azure, AWS), et des outils d'automatisation d'infrastructure (Terraform, Ansible).<br><br>Passionné par l'innovation technologique et l'agilité organisationnelle, je m'efforce constamment d'optimiser les processus de développement et d'apporter des solutions techniques robustes aux défis métiers complexes.",
+        "personalGoalText": "Continuer à développer ma discipline, ma capacité d'apprentissage et mon équilibre de vie, afin d'être performant dans mon travail tout en restant épanoui. J'accorde beaucoup d'importance à la curiosité, à la progression continue et à l'engagement dans des projets qui ont un impact positif.",
+        "professionalGoalText": "Devenir un expert <strong>DevOps</strong> capable de concevoir, automatiser et sécuriser des infrastructures cloud à grande échelle. Je souhaite évoluer vers un rôle où je peux contribuer à la fiabilité des systèmes, optimiser les processus de déploiement et accompagner les équipes dans l'adoption des bonnes pratiques DevOps. À moyen terme, j'aimerais également encadrer des projets et participer à l'innovation technologique au sein de mon organisation.",
+        "locationValue": "Amiens, Haut-de-France, France",
+        "nationalityValue": "Djiboutien",
+        "languagesValue": "Français, Anglais, Afar, Somali, Arabe",
+        "technicalDesc": "Déploiement de solutions robustes et automatisées avec une rigueur méthodologique dans chaque projet cloud et DevOps",
+        "leadershipDesc": "Animation d'équipes techniques, partage des connaissances et communication transparente pour une collaboration efficace en environnement agile",
+        "innovationDesc": "Veille technologique constante sur les écosystèmes cloud et DevOps, adoption des architectures modernes et résilientes face aux évolutions du secteur",
+        "socialDesc": "Engagement bénévole actif dans l'inclusion numérique, le mentorat linguistique et le développement communautaire, liant expertise technique et contribution sociétale"
+      }
+    },
+    "skills": {
+      "title": "Compétences techniques",
+      "subtitle": "Un savoir-faire technique complet en DevOps, Cloud et automatisation, consolidé par des réalisations concrètes et un apprentissage continu dans les architectures modernes.",
+      "summary": {
+        "categories": "Catégories",
+        "skills": "Compétences",
+        "domains": "Domaines clés"
+      },
+      "categories": {
+        "cloud": "Cloud & Infrastructure as Code (IaC)",
+        "containerization": "Conteneurisation & Orchestration",
+        "devops": "DevOps & CI/CD",
+        "monitoring": "Monitoring & Observability",
+        "powerPlatform": "Microsoft Power Platform",
+        "development": "Développement & Scripting",
+        "infrastructure": "Expert en Infogérance"
+      },
+      "cloudSkills": [
+        "Microsoft Azure",
+        "Amazon Web Services (AWS) - Notions",
+        "Terraform",
+        "Ansible - Initiation",
+        "Azure - Expérience pratique",
+        "Cloud Computing"
+      ],
+      "containerSkills": [
+        "Kubernetes - Connaissances basiques",
+        "Azure Kubernetes Service (AKS)",
+        "Docker",
+        "Conteneurisation"
+      ],
+      "devopsSkills": [
+        "DevOps",
+        "DevSecOps",
+        "CI/CD (Intégration continue et livraison continue)",
+        "Azure DevOps",
+        "GitLab CI",
+        "Jenkins",
+        "Git",
+        "GitHub",
+        "Pipelines d'intégration"
+      ],
+      "monitoringSkills": [
+        "Prometheus",
+        "Grafana",
+        "Monitoring de logs"
+      ],
+      "powerPlatformSkills": [
+        "Power Apps - Création d'applications low-code",
+        "Power Automate - Automatisation de workflows",
+        "Power BI - Conception de rapports dynamiques",
+        "Dataverse - Source de données pour applications",
+        "SharePoint - Intégration et source de données",
+        "Intégration Microsoft 365 & Teams"
+      ],
+      "developmentSkills": [
+        "Python",
+        "C#",
+        ".NET / .NET Core",
+        "JavaScript",
+        "Bash Scripting",
+        "ASP.NET MVC",
+        "React - Bases",
+        "Développement Microsoft",
+        "Low-Code Development Platforms",
+        "Microsoft Power Platform"
+      ],
+      "infrastructureSkills": [
+        "Microsoft Azure",
+        "Amazon Web Services (AWS) - Notions",
+        "Terraform",
+        "Ansible - Initiation",
+        "Azure - Expérience pratique",
+        "Cloud Computing",
+        "Grafana",
+        "Cubernet",
+        "Sauvegarde et reprise d'activité",
+        "Administration réseaux"
+      ],
+      "tags": {
+        "cloud": "Cloud",
+        "iac": "IaC",
+        "automation": "Automation",
+        "containers": "Containers",
+        "orchestration": "Orchestration",
+        "microservices": "Microservices",
+        "devops": "DevOps",
+        "ciCd": "CI/CD",
+        "monitoring": "Monitoring",
+        "observability": "Observability",
+        "metrics": "Metrics",
+        "lowCode": "Low-Code",
+        "microsoft": "Microsoft",
+        "development": "Development",
+        "scripting": "Scripting",
+        "backend": "Backend"
+      }
+    },
+    "experiences": {
+      "title": "Expériences Professionnelles",
+      "subtitle": "De l'orchestration cloud à l'innovation Microsoft : un parcours DevOps qui transforme les défis en solutions",
+      "achievements": "Principales réalisations",
+      "technologies": "Technologies utilisées",
+      "project": {
+        "objective": "Objectif du projet",
+        "activities": "Activités réalisées"
+      },
+      "teknosure": {
+        "title": "Tech Lead",
+        "description": "Scrum Master & DevOps : j'accompagne les équipes dans l'agilité et j'automatise les processus pour livrer des solutions fiables et innovantes.",
+        "achievements": [
+          "Automatisation complète des pipelines CI/CD",
+          "Migration vers Kubernetes avec AKS",
+          "Mise en place d'architecture microservices",
+          "Implémentation de Terraform pour l'IaC",
+          "Monitoring avec Azure Monitor et Prometheus",
+          "Gestion de Cloud et de l'hébergement",
+          "Sauvegarde et reprise d'activité",
+          "Support et gestion des parcours",
+          "Chef de projet technique / Architecte",
+          "Responsable de compte / Account Manager"
+        ],
+        "location": "Ville de Paris",
+        "type": "Hybride"
+      },
+      "m2i": {
+        "title": "Consultant DevOps",
+        "description": "Consultant DevOps avec focus sur l'automatisation et l'administration système.",
+        "location": "Lille, Hauts-de-France",
+        "type": "Sur site"
+      },
+      "talan": {
+        "title": "Consultant Microsoft - Développeur Power Platform",
+        "objective": "Au sein de Talan, mise en place d'un outil interne de gestion de l'onboarding. L'objectif est d'automatiser les tâches répétitives pour gagner du temps et limiter les erreurs, tout en produisant une communication de qualité et formalisée.",
+        "activities": [
+          "Définition du besoin métier et réalisation des maquettes",
+          "Création des listes sur SharePoint et développement avec Power Apps",
+          "Automatisation avec Power Automate (événements calendrier, emails, posts Teams)",
+          "Gestion de projet avec Jira et documentation technique",
+          "Tests IT/UAT et déploiement"
+        ],
+        "location": "Ville de Paris, Île-de-France",
+        "type": "Hybride"
+      }
+    },
+    "education": {
+      "title": "Mes Formations",
+      "subtitle": "Parcours académique et compétences acquises",
+      "summary": {
+        "formations": "Formations",
+        "skills": "Compétences",
+        "institutions": "Établissements"
+      },
+      "skills": "Compétences développées",
+      "m2iDevops": {
+        "diploma": "Master professionnel, DevOps",
+        "association": "Association de la Diaspora Djiboutienne en France"
+      },
+      "m2iProgramming": {
+        "diploma": "Licence professionnelle, Computer Programming",
+        "association": "Diaspora des associations en France"
+      },
+      "sikkim": {
+        "diploma": "Bachelor of Science - BS, Information Technology"
+      }
+    },
+    "volunteering": {
+      "title": "Bénévolat",
+      "subtitle": "Une expérience de bénévolat dans ma vie d'ingénieur DevOps",
+      "duration": "Durée",
+      "diaspora": {
+        "title": "Bénévole – Développement numérique",
+        "description": "Création du site web de l'association et gestion de la présence numérique (réseaux sociaux, diffusion d'informations). Contribution à la modernisation de la communication digitale et à la visibilité des actions communautaires."
+      },
+      "community": {
+        "title": "Bénévole – Animateur communautaire",
+        "description": "Organisation et animation d'une journée de dédicace pour un écrivain de la communauté est-africaine, visant à sensibiliser les jeunes à la culture, à l'éducation et à l'engagement communautaire en Belgique."
+      },
+      "frenchTeacher": {
+        "title": "Formateur – Langue française",
+        "description": "Enseignement de la langue française aux demandeurs d'asile afin de favoriser leur intégration sociale et professionnelle en France. Accompagnement pédagogique adapté à des publics multiculturels."
+      },
+      "fafa": {
+        "title": "Leader de pôle informatique & sites internet",
+        "description": "Responsabilité du pôle informatique : conception, gestion et maintenance des sites internet de l'organisation. Contribution aux actions citoyennes et sociales à travers le numérique et la communication digitale."
+      }
+    },
+    "contact": {
+      "title": "Contactez-moi",
+      "subtitle": "Je suis ouvert à de nouvelles opportunités et collaborations. N'hésitez pas à me contacter pour discuter de projets passionnants ou pour toute question.",
+      "form": {
+        "name": "Nom :",
+        "firstName": "Prénom :",
+        "email": "Email :",
+        "message": "Message :",
+        "send": "Envoyer"
+      },
+      "email": "abdoulrahmana82@gmail.com",
+      "phone": "+33 07 80 45 38 07",
+      "location": "Amiens, Haut-de-France, France"
+    },
+    "footer": {
+      "description": "Tech Lead DevOps/DeSecOps spécialisé en automatisation CI/CD, orchestration cloud et solutions Microsoft Power Platform. Passionné par l'innovation technique et l'accompagnement des équipes agiles.",
+      "contact": "Contact",
+      "navigation": "Navigation",
+      "professionalLinks": "Liens professionnels",
+      "available": "Disponible pour de nouveaux défis professionnels",
+      "copyright": "© 2025 Abdoul-Rahman Abdallah Aden. Tous droits réservés.",
+      "developed": "Développé avec passion et expertise technique",
+      "cv1": "Télécharger CV 1",
+      "cv2": "Télécharger CV 2"
+    }
+  },
+  "en": {
+    "header": {
+      "nav": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "experiences": "Experiences",
+        "education": "Education",
+        "volunteering": "Volunteering",
+        "contact": "Contact"
+      },
+      "buttons": {
+        "downloadCV": "Download CV",
+        "contactMe": "Contact Me",
+        "cv1": "Professional CV 1",
+        "cv2": "Professional CV 2"
+      }
+    },
+    "home": {
+      "title": "I am",
+      "roles": ["DevOps Engineer & Scrum Master"],
+      "description": "DevOps/DeSecOps Tech Lead, Microsoft Power Platform consultant and CI/CD automation, orchestration and monitoring expert, I also support agile teams as a Scrum Master to deliver high-performance, secure and innovative Cloud Native solutions.",
+      "buttons": {
+        "discoverSkills": "Discover my skills",
+        "discussProject": "Discuss your project"
+      },
+      "stats": {
+        "projects": "Projects completed",
+        "experience": "Years of experience",
+        "satisfaction": "Client satisfaction"
+      }
+    },
+    "about": {
+      "title": "About Me",
+      "subtitle": "Experienced DevOps Tech Lead specialized in CI/CD automation, Docker/Kubernetes orchestration and Microsoft Power Platform development",
+      "sections": {
+        "career": "Career Path",
+        "personalInfo": "Personal Information",
+        "personalGoal": "Personal Goal",
+        "values": "Professional Values",
+        "professionalGoal": "Professional Goal"
+      },
+      "info": {
+        "location": "Location",
+        "nationality": "Nationality",
+        "languages": "Languages"
+      },
+      "values": {
+        "technical": "Technical Excellence & DevOps",
+        "leadership": "Agile Leadership & Collaboration",
+        "innovation": "Innovation & Adaptability",
+        "social": "Social Impact & Responsibility"
+      },
+      "content": {
+        "careerText": "With advanced <strong>DevOps</strong> training and significant experience at <strong>Teknosure and Talan</strong>, I specialize in DevOps technical leadership, CI/CD automation, and Microsoft Power Platform solutions development.<br><br>My expertise covers the entire modern DevOps chain, with particular mastery of container orchestration (Docker, Kubernetes), clouds (Azure, AWS), and infrastructure automation tools (Terraform, Ansible).<br><br>Passionate about technological innovation and organizational agility, I constantly strive to optimize development processes and bring robust technical solutions to complex business challenges.",
+        "personalGoalText": "Continue to develop my discipline, learning ability and life balance, to be effective in my work while remaining fulfilled. I place great importance on curiosity, continuous progress and engagement in projects that have a positive impact.",
+        "professionalGoalText": "Become a <strong>DevOps</strong> expert capable of designing, automating and securing large-scale cloud infrastructures. I want to evolve into a role where I can contribute to system reliability, optimize deployment processes and support teams in adopting DevOps best practices. In the medium term, I would also like to manage projects and participate in technological innovation within my organization.",
+        "locationValue": "Amiens, Hauts-de-France, France",
+        "nationalityValue": "Djiboutian",
+        "languagesValue": "French, English, Afar, Somali, Arabic",
+        "technicalDesc": "Deployment of robust and automated solutions with methodological rigor in every cloud and DevOps project",
+        "leadershipDesc": "Leading technical teams, knowledge sharing and transparent communication for effective collaboration in agile environments",
+        "innovationDesc": "Constant technological monitoring of cloud and DevOps ecosystems, adoption of modern and resilient architectures in the face of industry changes",
+        "socialDesc": "Active volunteer engagement in digital inclusion, language mentoring and community development, linking technical expertise and societal contribution"
+      }
+    },
+    "skills": {
+      "title": "Technical Skills",
+      "subtitle": "Comprehensive technical expertise in DevOps, Cloud and automation, strengthened by concrete achievements and continuous learning in modern architectures.",
+      "summary": {
+        "categories": "Categories",
+        "skills": "Skills",
+        "domains": "Key Domains"
+      },
+      "categories": {
+        "cloud": "Cloud & Infrastructure as Code (IaC)",
+        "containerization": "Containerization & Orchestration",
+        "devops": "DevOps & CI/CD",
+        "monitoring": "Monitoring & Observability",
+        "powerPlatform": "Microsoft Power Platform",
+        "development": "Development & Scripting",
+        "infrastructure": "Infrastructure Management Expert"
+      },
+      "cloudSkills": [
+        "Microsoft Azure",
+        "Amazon Web Services (AWS) - Basics",
+        "Terraform",
+        "Ansible - Introduction",
+        "Azure - Practical experience",
+        "Cloud Computing"
+      ],
+      "containerSkills": [
+        "Kubernetes - Basic knowledge",
+        "Azure Kubernetes Service (AKS)",
+        "Docker",
+        "Containerization"
+      ],
+      "devopsSkills": [
+        "DevOps",
+        "DevSecOps",
+        "CI/CD (Continuous Integration and Continuous Delivery)",
+        "Azure DevOps",
+        "GitLab CI",
+        "Jenkins",
+        "Git",
+        "GitHub",
+        "Integration Pipelines"
+      ],
+      "monitoringSkills": [
+        "Prometheus",
+        "Grafana",
+        "Log Monitoring"
+      ],
+      "powerPlatformSkills": [
+        "Power Apps - Low-code application creation",
+        "Power Automate - Workflow automation",
+        "Power BI - Dynamic report design",
+        "Dataverse - Data source for applications",
+        "SharePoint - Integration and data source",
+        "Microsoft 365 & Teams Integration"
+      ],
+      "developmentSkills": [
+        "Python",
+        "C#",
+        ".NET / .NET Core",
+        "JavaScript",
+        "Bash Scripting",
+        "ASP.NET MVC",
+        "React - Basics",
+        "Microsoft Development",
+        "Low-Code Development Platforms",
+        "Microsoft Power Platform"
+      ],
+      "infrastructureSkills": [
+        "Microsoft Azure",
+        "Amazon Web Services (AWS) - Basics",
+        "Terraform",
+        "Ansible - Introduction",
+        "Azure - Practical experience",
+        "Cloud Computing",
+        "Grafana",
+        "Cubernet",
+        "Backup and Disaster Recovery",
+        "Network Administration"
+      ],
+      "tags": {
+        "cloud": "Cloud",
+        "iac": "IaC",
+        "automation": "Automation",
+        "containers": "Containers",
+        "orchestration": "Orchestration",
+        "microservices": "Microservices",
+        "devops": "DevOps",
+        "ciCd": "CI/CD",
+        "monitoring": "Monitoring",
+        "observability": "Observability",
+        "metrics": "Metrics",
+        "lowCode": "Low-Code",
+        "microsoft": "Microsoft",
+        "development": "Development",
+        "scripting": "Scripting",
+        "backend": "Backend"
+      }
+    },
+    "experiences": {
+      "title": "Professional Experiences",
+      "subtitle": "From cloud orchestration to Microsoft innovation: a DevOps journey that transforms challenges into solutions",
+      "achievements": "Main Achievements",
+      "technologies": "Technologies Used",
+      "project": {
+        "objective": "Project Objective",
+        "activities": "Activities Performed"
+      },
+      "teknosure": {
+        "title": "Tech Lead",
+        "description": "Scrum Master & DevOps: I support teams in agility and automate processes to deliver reliable and innovative solutions.",
+        "achievements": [
+          "Complete automation of CI/CD pipelines",
+          "Migration to Kubernetes with AKS",
+          "Implementation of microservices architecture",
+          "Terraform implementation for IaC",
+          "Monitoring with Azure Monitor and Prometheus",
+          "Cloud and hosting management",
+          "Backup and disaster recovery",
+          "Support and account management",
+          "Technical Project Manager / Architect",
+          "Account Manager"
+        ],
+        "location": "Paris",
+        "type": "Hybrid"
+      },
+      "m2i": {
+        "title": "DevOps Consultant",
+        "description": "DevOps Consultant focusing on automation and system administration.",
+        "location": "Lille, Hauts-de-France",
+        "type": "On-site"
+      },
+      "talan": {
+        "title": "Microsoft Consultant - Power Platform Developer",
+        "objective": "At Talan, implementation of an internal onboarding management tool. The objective is to automate repetitive tasks to save time and limit errors, while producing quality and formalized communication.",
+        "activities": [
+          "Business needs definition and mockup creation",
+          "SharePoint list creation and development with Power Apps",
+          "Automation with Power Automate (calendar events, emails, Teams posts)",
+          "Project management with Jira and technical documentation",
+          "IT/UAT testing and deployment"
+        ],
+        "location": "Paris, Île-de-France",
+        "type": "Hybrid"
+      }
+    },
+    "education": {
+      "title": "My Education",
+      "subtitle": "Academic background and acquired skills",
+      "summary": {
+        "formations": "Formations",
+        "skills": "Skills",
+        "institutions": "Institutions"
+      },
+      "skills": "Skills Developed",
+      "m2iDevops": {
+        "diploma": "Professional Master, DevOps",
+        "association": "Association of the Djiboutian Diaspora in France"
+      },
+      "m2iProgramming": {
+        "diploma": "Professional Bachelor, Computer Programming",
+        "association": "Diaspora Associations in France"
+      },
+      "sikkim": {
+        "diploma": "Bachelor of Science - BS, Information Technology"
+      }
+    },
+    "volunteering": {
+      "title": "Volunteering",
+      "subtitle": "Volunteering experience in my DevOps engineer life",
+      "duration": "Duration",
+      "diaspora": {
+        "title": "Volunteer – Digital Development",
+        "description": "Creation of the association's website and management of digital presence (social networks, information dissemination). Contribution to the modernization of digital communication and visibility of community actions."
+      },
+      "community": {
+        "title": "Volunteer – Community Animator",
+        "description": "Organization and animation of a dedication day for an East African community writer, aiming to raise awareness among young people about culture, education and community engagement in Belgium."
+      },
+      "frenchTeacher": {
+        "title": "Trainer – French Language",
+        "description": "Teaching French language to asylum seekers to promote their social and professional integration in France. Pedagogical support adapted to multicultural audiences."
+      },
+      "fafa": {
+        "title": "IT Department Leader & Websites",
+        "description": "Responsibility for the IT department: design, management and maintenance of the organization's websites. Contribution to citizen and social actions through digital technology and digital communication."
+      }
+    },
+    "contact": {
+      "title": "Contact Me",
+      "subtitle": "I am open to new opportunities and collaborations. Feel free to contact me to discuss exciting projects or for any questions.",
+      "form": {
+        "name": "Name:",
+        "firstName": "First Name:",
+        "email": "Email:",
+        "message": "Message:",
+        "send": "Send"
+      },
+      "email": "abdoulrahmana82@gmail.com",
+      "phone": "+33 07 80 45 38 07",
+      "location": "Amiens, Hauts-de-France, France"
+    },
+    "footer": {
+      "description": "DevOps/DeSecOps Tech Lead specialized in CI/CD automation, cloud orchestration and Microsoft Power Platform solutions. Passionate about technical innovation and supporting agile teams.",
+      "contact": "Contact",
+      "navigation": "Navigation",
+      "professionalLinks": "Professional Links",
+      "available": "Available for new professional challenges",
+      "copyright": "© 2025 Abdoul-Rahman Abdallah Aden. All rights reserved.",
+      "developed": "Developed with passion and technical expertise",
+      "cv1": "Download CV 1",
+      "cv2": "Download CV 2"
+    }
+  },
+  "es": {
+    "header": {
+      "nav": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "skills": "Habilidades",
+        "experiences": "Experiencias",
+        "education": "Formación",
+        "volunteering": "Voluntariado",
+        "contact": "Contacto"
+      },
+      "buttons": {
+        "downloadCV": "Descargar CV",
+        "contactMe": "Contactarme",
+        "cv1": "CV Profesional 1",
+        "cv2": "CV Profesional 2"
+      }
+    },
+    "home": {
+      "title": "Soy",
+      "roles": ["Ingeniero DevOps & Scrum Master"],
+      "description": "Tech Lead DevOps/DeSecOps, consultor de Microsoft Power Platform y experto en automatización CI/CD, orquestación y monitoreo, también acompaño a equipos ágiles como Scrum Master para entregar soluciones Cloud Native de alto rendimiento, seguras e innovadoras.",
+      "buttons": {
+        "discoverSkills": "Descubrir mis habilidades",
+        "discussProject": "Hablemos de tu proyecto"
+      },
+      "stats": {
+        "projects": "Proyectos realizados",
+        "experience": "Años de experiencia",
+        "satisfaction": "Satisfacción del cliente"
+      }
+    },
+    "about": {
+      "title": "Sobre mí",
+      "subtitle": "Tech Lead DevOps con experiencia en automatización CI/CD, orquestación Docker/Kubernetes y desarrollo de Microsoft Power Platform",
+      "sections": {
+        "career": "Trayectoria Profesional",
+        "personalInfo": "Información Personal",
+        "personalGoal": "Objetivo Personal",
+        "values": "Valores Profesionales",
+        "professionalGoal": "Objetivo Profesional"
+      },
+      "info": {
+        "location": "Ubicación",
+        "nationality": "Nacionalidad",
+        "languages": "Idiomas"
+      },
+      "values": {
+        "technical": "Excelencia Técnica & DevOps",
+        "leadership": "Liderazgo Ágil & Colaboración",
+        "innovation": "Innovación & Adaptabilidad",
+        "social": "Impacto Social & Responsabilidad"
+      },
+      "content": {
+        "careerText": "Con formación avanzada en <strong>DevOps</strong> y experiencia significativa en <strong>Teknosure y Talan</strong>, me especializo en liderazgo técnico DevOps, automatización CI/CD y desarrollo de soluciones Microsoft Power Platform.<br><br>Mi experiencia cubre toda la cadena moderna de DevOps, con dominio particular de la orquestación de contenedores (Docker, Kubernetes), nubes (Azure, AWS) y herramientas de automatización de infraestructura (Terraform, Ansible).<br><br>Apasionado por la innovación tecnológica y la agilidad organizacional, me esfuerzo constantemente por optimizar los procesos de desarrollo y aportar soluciones técnicas sólidas a los desafíos comerciales complejos.",
+        "personalGoalText": "Continuar desarrollando mi disciplina, capacidad de aprendizaje y equilibrio de vida, para ser eficaz en mi trabajo manteniéndome realizado. Doy mucha importancia a la curiosidad, el progreso continuo y la participación en proyectos que tengan un impacto positivo.",
+        "professionalGoalText": "Convertirme en un experto en <strong>DevOps</strong> capaz de diseñar, automatizar y proteger infraestructuras en la nube a gran escala. Quiero evolucionar hacia un rol donde pueda contribuir a la confiabilidad de los sistemas, optimizar los procesos de implementación y apoyar a los equipos en la adopción de las mejores prácticas de DevOps. A medio plazo, también me gustaría gestionar proyectos y participar en la innovación tecnológica dentro de mi organización.",
+        "locationValue": "Amiens, Hauts-de-France, Francia",
+        "nationalityValue": "Yibutiano",
+        "languagesValue": "Francés, Inglés, Afar, Somalí, Árabe",
+        "technicalDesc": "Despliegue de soluciones robustas y automatizadas con rigor metodológico en cada proyecto de nube y DevOps",
+        "leadershipDesc": "Liderazgo de equipos técnicos, intercambio de conocimientos y comunicación transparente para una colaboración efectiva en entornos ágiles",
+        "innovationDesc": "Monitoreo tecnológico constante de los ecosistemas de nube y DevOps, adopción de arquitecturas modernas y resilientes frente a los cambios del sector",
+        "socialDesc": "Compromiso voluntario activo en la inclusión digital, mentoría lingüística y desarrollo comunitario, vinculando experiencia técnica y contribución social"
+      }
+    },
+    "skills": {
+      "title": "Habilidades técnicas",
+      "subtitle": "Conocimiento técnico completo en DevOps, Cloud y automatización, consolidado por logros concretos y aprendizaje continuo en arquitecturas modernas.",
+      "summary": {
+        "categories": "Categorías",
+        "skills": "Habilidades",
+        "domains": "Dominios clave"
+      },
+      "categories": {
+        "cloud": "Cloud & Infrastructure as Code (IaC)",
+        "containerization": "Contenerización & Orquestación",
+        "devops": "DevOps & CI/CD",
+        "monitoring": "Monitoreo & Observabilidad",
+        "powerPlatform": "Microsoft Power Platform",
+        "development": "Desarrollo & Scripting",
+        "infrastructure": "Experto en Gestión de Infraestructura"
+      }
+    },
+    "experiences": {
+      "title": "Experiencias Profesionales",
+      "subtitle": "De la orquestación en la nube a la innovación de Microsoft: un viaje DevOps que transforma desafíos en soluciones",
+      "achievements": "Principales logros",
+      "technologies": "Tecnologías utilizadas",
+      "project": {
+        "objective": "Objetivo del proyecto",
+        "activities": "Actividades realizadas"
+      }
+    },
+    "education": {
+      "title": "Mi Educación",
+      "subtitle": "Antecedentes académicos y habilidades adquiridas",
+      "summary": {
+        "formations": "Formaciones",
+        "skills": "Habilidades",
+        "institutions": "Instituciones"
+      },
+      "skills": "Habilidades desarrolladas"
+    },
+    "volunteering": {
+      "title": "Voluntariado",
+      "subtitle": "Experiencia de voluntariado en mi vida de ingeniero DevOps",
+      "duration": "Duración"
+    },
+    "contact": {
+      "title": "Contáctame",
+      "subtitle": "Estoy abierto a nuevas oportunidades y colaboraciones. No dude en contactarme para discutir proyectos emocionantes o para cualquier pregunta.",
+      "form": {
+        "name": "Nombre:",
+        "firstName": "Apellido:",
+        "email": "Email:",
+        "message": "Mensaje:",
+        "send": "Enviar"
+      }
+    },
+    "footer": {
+      "description": "Tech Lead DevOps/DeSecOps especializado en automatización CI/CD, orquestación en la nube y soluciones Microsoft Power Platform. Apasionado por la innovación técnica y el apoyo a equipos ágiles.",
+      "contact": "Contacto",
+      "navigation": "Navegación",
+      "professionalLinks": "Enlaces profesionales",
+      "available": "Disponible para nuevos desafíos profesionales",
+      "copyright": "© 2025 Abdoul-Rahman Abdallah Aden. Todos los derechos reservados.",
+      "developed": "Desarrollado con pasión y experiencia técnica"
+    }
+  },
+  "ar": {
+    "header": {
+      "nav": {
+        "home": "الرئيسية",
+        "about": "عني",
+        "skills": "المهارات",
+        "experiences": "الخبرات",
+        "education": "التعليم",
+        "volunteering": "التطوع",
+        "contact": "اتصل بي"
+      },
+      "buttons": {
+        "downloadCV": "تحميل السيرة الذاتية",
+        "contactMe": "اتصل بي",
+        "cv1": "السيرة الذاتية المهنية 1",
+        "cv2": "السيرة الذاتية المهنية 2"
+      }
+    },
+    "home": {
+      "title": "أنا",
+      "roles": ["مهندس DevOps و Scrum Master"],
+      "description": "قائد فني DevOps/DeSecOps، مستشار Microsoft Power Platform وخبير في أتمتة CI/CD، والتنسيق والمراقبة، كما أدعم الفرق الرشيقة كـ Scrum Master لتقديم حلول Cloud Native عالية الأداء وآمنة ومبتكرة.",
+      "buttons": {
+        "discoverSkills": "اكتشف مهاراتي",
+        "discussProject": "لنتحدث عن مشروعك"
+      },
+      "stats": {
+        "projects": "المشاريع المكتملة",
+        "experience": "سنوات الخبرة",
+        "satisfaction": "رضا العملاء"
+      }
+    },
+    "about": {
+      "title": "عني",
+      "subtitle": "قائد فني DevOps ذو خبرة في أتمتة CI/CD، وتنسيق Docker/Kubernetes وتطوير Microsoft Power Platform",
+      "sections": {
+        "career": "المسار المهني",
+        "personalInfo": "المعلومات الشخصية",
+        "personalGoal": "الهدف الشخصي",
+        "values": "القيم المهنية",
+        "professionalGoal": "الهدف المهني"
+      },
+      "info": {
+        "location": "الموقع",
+        "nationality": "الجنسية",
+        "languages": "اللغات"
+      },
+      "values": {
+        "technical": "التميز التقني و DevOps",
+        "leadership": "القيادة الرشيقة والتعاون",
+        "innovation": "الابتكار والتكيف",
+        "social": "التأثير الاجتماعي والمسؤولية"
+      }
+    },
+    "skills": {
+      "title": "المهارات التقنية",
+      "subtitle": "خبرة تقنية شاملة في DevOps، السحابة والأتمتة، مدعومة بإنجازات ملموسة وتعلم مستمر في الهندسات المعمارية الحديثة.",
+      "summary": {
+        "categories": "الفئات",
+        "skills": "المهارات",
+        "domains": "المجالات الرئيسية"
+      },
+      "categories": {
+        "cloud": "السحابة والبنية التحتية كرمز (IaC)",
+        "containerization": "الحاوية والتنسيق",
+        "devops": "DevOps و CI/CD",
+        "monitoring": "المراقبة والملاحظة",
+        "powerPlatform": "Microsoft Power Platform",
+        "development": "التطوير والنصوص البرمجية",
+        "infrastructure": "خبير إدارة البنية التحتية"
+      }
+    },
+    "experiences": {
+      "title": "الخبرات المهنية",
+      "subtitle": "من تنسيق السحابة إلى ابتكار Microsoft: رحلة DevOps تحول التحديات إلى حلول",
+      "achievements": "الإنجازات الرئيسية",
+      "technologies": "التقنيات المستخدمة",
+      "project": {
+        "objective": "هدف المشروع",
+        "activities": "الأنشطة المنفذة"
+      }
+    },
+    "education": {
+      "title": "تعليمي",
+      "subtitle": "الخلفية الأكاديمية والمهارات المكتسبة",
+      "summary": {
+        "formations": "التكوينات",
+        "skills": "المهارات",
+        "institutions": "المؤسسات"
+      },
+      "skills": "المهارات المطورة"
+    },
+    "volunteering": {
+      "title": "التطوع",
+      "subtitle": "تجربة التطوع في حياة مهندس DevOps",
+      "duration": "المدة"
+    },
+    "contact": {
+      "title": "اتصل بي",
+      "subtitle": "أنا منفتح على فرص وتعاونات جديدة. لا تتردد في الاتصال بي لمناقشة مشاريع مثيرة أو لأي أسئلة.",
+      "form": {
+        "name": "الاسم:",
+        "firstName": "الاسم الأول:",
+        "email": "البريد الإلكتروني:",
+        "message": "الرسالة:",
+        "send": "إرسال"
+      }
+    },
+    "footer": {
+      "description": "قائد فني DevOps/DeSecOps متخصص في أتمتة CI/CD، وتنسيق السحابة وحلول Microsoft Power Platform. شغوف بالابتكار التقني ودعم الفرق الرشيقة.",
+      "contact": "اتصل",
+      "navigation": "التنقل",
+      "professionalLinks": "الروابط المهنية",
+      "available": "متاح لتحديات مهنية جديدة",
+      "copyright": "© 2025 عبد الرحمن عبد الله عدن. جميع الحقوق محفوظة.",
+      "developed": "تم التطوير بشغف وخبرة تقنية"
+    }
+  },
+  "zh": {
+    "header": {
+      "nav": {
+        "home": "首页",
+        "about": "关于我",
+        "skills": "技能",
+        "experiences": "经验",
+        "education": "教育",
+        "volunteering": "志愿活动",
+        "contact": "联系"
+      },
+      "buttons": {
+        "downloadCV": "下载简历",
+        "contactMe": "联系我",
+        "cv1": "专业简历 1",
+        "cv2": "专业简历 2"
+      }
+    },
+    "home": {
+      "title": "我是",
+      "roles": ["DevOps 工程师 & Scrum Master"],
+      "description": "DevOps/DeSecOps 技术负责人、Microsoft Power Platform 顾问以及 CI/CD 自动化、编排和监控专家，我还作为 Scrum Master 支持敏捷团队，提供高性能、安全且创新的云原生解决方案。",
+      "buttons": {
+        "discoverSkills": "发现我的技能",
+        "discussProject": "讨论您的项目"
+      },
+      "stats": {
+        "projects": "已完成项目",
+        "experience": "工作经验",
+        "satisfaction": "客户满意度"
+      }
+    },
+    "about": {
+      "title": "关于我",
+      "subtitle": "经验丰富的 DevOps 技术负责人，专注于 CI/CD 自动化、Docker/Kubernetes 编排和 Microsoft Power Platform 开发",
+      "sections": {
+        "career": "职业路径",
+        "personalInfo": "个人信息",
+        "personalGoal": "个人目标",
+        "values": "专业价值观",
+        "professionalGoal": "职业目标"
+      },
+      "info": {
+        "location": "位置",
+        "nationality": "国籍",
+        "languages": "语言"
+      },
+      "values": {
+        "technical": "技术卓越 & DevOps",
+        "leadership": "敏捷领导力 & 协作",
+        "innovation": "创新 & 适应性",
+        "social": "社会影响 & 责任"
+      },
+      "content": {
+        "careerText": "凭借先进的 <strong>DevOps</strong> 培训和 <strong>Teknosure 和 Talan</strong> 的丰富经验，我专注于 DevOps 技术领导力、CI/CD 自动化和 Microsoft Power Platform 解决方案开发。<br><br>我的专业知识涵盖整个现代 DevOps 链，特别精通容器编排（Docker、Kubernetes）、云平台（Azure、AWS）和基础设施自动化工具（Terraform、Ansible）。<br><br>热衷于技术创新和组织敏捷性，我不断努力优化开发流程，为复杂的业务挑战提供稳健的技术解决方案。",
+        "personalGoalText": "继续发展我的纪律性、学习能力和生活平衡，在工作中保持高效的同时实现自我满足。我非常重视好奇心、持续进步以及参与具有积极影响的项目。",
+        "professionalGoalText": "成为能够设计、自动化和保护大规模云基础设施的 <strong>DevOps</strong> 专家。我希望发展到一个角色，能够为系统可靠性做出贡献，优化部署流程，并支持团队采用 DevOps 最佳实践。中期内，我还希望管理项目并参与组织内的技术创新。",
+        "locationValue": "法国上法兰西大区亚眠",
+        "nationalityValue": "吉布提",
+        "languagesValue": "法语、英语、阿法尔语、索马里语、阿拉伯语",
+        "technicalDesc": "在每个云和 DevOps 项目中，以方法论严谨性部署稳健且自动化的解决方案",
+        "leadershipDesc": "领导技术团队，知识共享和透明沟通，实现敏捷环境中的有效协作",
+        "innovationDesc": "持续监控云和 DevOps 生态系统，面对行业变化采用现代且有弹性的架构",
+        "socialDesc": "积极参与数字包容、语言指导和社区发展的志愿者活动，将技术专长与社会贡献相结合"
+      }
+    },
+    "skills": {
+      "title": "技术技能",
+      "subtitle": "全面的 DevOps、云计算和自动化技术专业知识，通过具体成就和现代架构中的持续学习而加强。",
+      "summary": {
+        "categories": "类别",
+        "skills": "技能",
+        "domains": "关键领域"
+      },
+      "categories": {
+        "cloud": "云计算 & 基础设施即代码 (IaC)",
+        "containerization": "容器化 & 编排",
+        "devops": "DevOps & CI/CD",
+        "monitoring": "监控 & 可观察性",
+        "powerPlatform": "Microsoft Power Platform",
+        "development": "开发 & 脚本编写",
+        "infrastructure": "基础设施管理专家"
+      },
+      "cloudSkills": [
+        "Microsoft Azure",
+        "Amazon Web Services (AWS) - 基础知识",
+        "Terraform",
+        "Ansible - 入门",
+        "Azure - 实践经验",
+        "云计算"
+      ],
+      "containerSkills": [
+        "Kubernetes - 基础知识",
+        "Azure Kubernetes Service (AKS)",
+        "Docker",
+        "容器化"
+      ],
+      "devopsSkills": [
+        "DevOps",
+        "DevSecOps",
+        "CI/CD (持续集成和持续交付)",
+        "Azure DevOps",
+        "GitLab CI",
+        "Jenkins",
+        "Git",
+        "GitHub",
+        "集成流水线"
+      ],
+      "monitoringSkills": [
+        "Prometheus",
+        "Grafana",
+        "日志监控"
+      ],
+      "powerPlatformSkills": [
+        "Power Apps - 低代码应用程序创建",
+        "Power Automate - 工作流自动化",
+        "Power BI - 动态报告设计",
+        "Dataverse - 应用程序数据源",
+        "SharePoint - 集成和数据源",
+        "Microsoft 365 & Teams 集成"
+      ],
+      "developmentSkills": [
+        "Python",
+        "C#",
+        ".NET / .NET Core",
+        "JavaScript",
+        "Bash 脚本",
+        "ASP.NET MVC",
+        "React - 基础",
+        "Microsoft 开发",
+        "低代码开发平台",
+        "Microsoft Power Platform"
+      ],
+      "infrastructureSkills": [
+        "Microsoft Azure",
+        "Amazon Web Services (AWS) - 基础知识",
+        "Terraform",
+        "Ansible - 入门",
+        "Azure - 实践经验",
+        "云计算",
+        "Grafana",
+        "Cubernet",
+        "备份和灾难恢复",
+        "网络管理"
+      ],
+      "tags": {
+        "cloud": "云计算",
+        "iac": "IaC",
+        "automation": "自动化",
+        "containers": "容器",
+        "orchestration": "编排",
+        "microservices": "微服务",
+        "devops": "DevOps",
+        "ciCd": "CI/CD",
+        "monitoring": "监控",
+        "observability": "可观察性",
+        "metrics": "指标",
+        "lowCode": "低代码",
+        "microsoft": "Microsoft",
+        "development": "开发",
+        "scripting": "脚本编写",
+        "backend": "后端"
+      }
+    },
+    "experiences": {
+      "title": "专业经验",
+      "subtitle": "从云编排到 Microsoft 创新：将挑战转化为解决方案的 DevOps 之旅",
+      "achievements": "主要成就",
+      "technologies": "使用的技术",
+      "project": {
+        "objective": "项目目标",
+        "activities": "执行的活动"
+      },
+      "teknosure": {
+        "title": "技术负责人",
+        "description": "Scrum Master & DevOps：我支持团队的敏捷性并自动化流程，以提供可靠和创新的解决方案。",
+        "achievements": [
+          "CI/CD 流水线的完全自动化",
+          "使用 AKS 迁移到 Kubernetes",
+          "微服务架构的实施",
+          "为 IaC 实施 Terraform",
+          "使用 Azure Monitor 和 Prometheus 进行监控",
+          "云和托管管理",
+          "备份和灾难恢复",
+          "支持和管理账户",
+          "技术项目经理 / 架构师",
+          "客户经理"
+        ],
+        "location": "巴黎",
+        "type": "混合"
+      },
+      "m2i": {
+        "title": "DevOps 顾问",
+        "description": "专注于自动化和系统管理的 DevOps 顾问。",
+        "location": "法国上法兰西大区里尔",
+        "type": "现场"
+      },
+      "talan": {
+        "title": "Microsoft 顾问 - Power Platform 开发人员",
+        "objective": "在 Talan，实施内部入职管理工具。目标是自动化重复性任务以节省时间并减少错误，同时产生高质量和正式的沟通。",
+        "activities": [
+          "业务需求定义和原型创建",
+          "SharePoint 列表创建和使用 Power Apps 进行开发",
+          "使用 Power Automate 进行自动化（日历事件、电子邮件、Teams 帖子）",
+          "使用 Jira 进行项目管理和技术文档编写",
+          "IT/UAT 测试和部署"
+        ],
+        "location": "法国法兰西岛大区巴黎",
+        "type": "混合"
+      }
+    },
+    "education": {
+      "title": "我的教育",
+      "subtitle": "学术背景和获得的技能",
+      "summary": {
+        "formations": "培训",
+        "skills": "技能",
+        "institutions": "机构"
+      },
+      "skills": "开发的技能",
+      "m2iDevops": {
+        "diploma": "专业硕士，DevOps",
+        "association": "法国吉布提侨民协会"
+      },
+      "m2iProgramming": {
+        "diploma": "专业学士，计算机编程",
+        "association": "法国侨民协会"
+      },
+      "sikkim": {
+        "diploma": "理学学士 - BS，信息技术"
+      }
+    },
+    "volunteering": {
+      "title": "志愿活动",
+      "subtitle": "在我 DevOps 工程师生活中的志愿活动经验",
+      "duration": "持续时间",
+      "diaspora": {
+        "title": "志愿者 – 数字发展",
+        "description": "创建协会网站并管理数字形象（社交媒体、信息传播）。为数字通信现代化和社区行动可见性做出贡献。"
+      },
+      "community": {
+        "title": "志愿者 – 社区活动组织者",
+        "description": "组织和主持东非社区作家的签名日活动，旨在提高比利时年轻人对文化、教育和社区参与的认识。"
+      },
+      "frenchTeacher": {
+        "title": "培训师 – 法语",
+        "description": "向寻求庇护者教授法语，以促进他们在法国的社会和职业融入。为多文化受众提供适应的教学支持。"
+      },
+      "fafa": {
+        "title": "IT 部门负责人和网站管理",
+        "description": "负责 IT 部门：设计、管理和维护组织网站。通过数字技术和数字通信为公民和社会行动做出贡献。"
+      }
+    },
+    "contact": {
+      "title": "联系我",
+      "subtitle": "我对新的机会和合作持开放态度。欢迎随时联系我讨论令人兴奋的项目或任何问题。",
+      "form": {
+        "name": "姓名：",
+        "firstName": "名字：",
+        "email": "邮箱：",
+        "message": "消息：",
+        "send": "发送"
+      },
+      "email": "abdoulrahmana82@gmail.com",
+      "phone": "+33 07 80 45 38 07",
+      "location": "法国上法兰西大区亚眠"
+    },
+    "footer": {
+      "description": "DevOps/DeSecOps 技术负责人，专注于 CI/CD 自动化、云编排和 Microsoft Power Platform 解决方案。热衷于技术创新和支持敏捷团队。",
+      "contact": "联系",
+      "navigation": "导航",
+      "professionalLinks": "专业链接",
+      "available": "可用于新的专业挑战",
+      "copyright": "© 2025 阿卜杜勒-拉赫曼·阿卜杜拉·亚丁。保留所有权利。",
+      "developed": "充满激情和技术专长开发"
+    }
+  }
+}
