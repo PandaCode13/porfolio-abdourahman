@@ -11,117 +11,190 @@
 </head>
 <body>
 
-  <header>
-    <h3>ARAA</h3>
+<header>
 
-    <nav>
-      <ul>
-        <a href="#home"><i class="fas fa-home"></i> Accueil</a>
-        <a href="#about"><i class="fas fa-user"></i> À propos</a>
-        <a href="#competences"><i class="fas fa-code"></i> Compétences</a>
-        <a href="#experiences"><i class="fas fa-briefcase"></i> Expériences</a>
-        <a href="#formations"><i class="fas fa-graduation-cap"></i> Formation</a>
-        <a href="#benevolat"><i class="fa-solid fa-hand-holding-heart"></i> Bénévolat</a>
-        <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
-      </ul>
-    </nav>
+  <h3 data-i18n="header.initials">ARAA</h3>
 
-            <div class="language-selector">
-  <select id="language-select">
-    <option value="fr">🇫🇷 Français</option>
-    <option value="en">🇬🇧 English</option>
-    <option value="es">🇪🇸 Español</option>
-    <option value="ar">🇸🇦 العربية</option>
-    <option value="zh">🇨🇳 中文</option>
-  </select>
-</div>
+  <nav>
+    <ul>
+      <li>
+        <a href="#home">
+          <i class="fas fa-home"></i>
+          <span data-i18n="header.nav.home">Accueil</span>
+        </a>
+      </li>
 
-    <div class="sup">
-      <a href="#" class="download-link"><i class="fas fa-download"></i> Télécharger CV</a>
-      <div class="dropmenu">
-        <a href="Profile.pdf">CV Professionnel 1</a>
-        <a href="Abdoul-rahman abdallah aden.pdf">CV Professionnel 2</a>
-      </div>
-      <a href="#contact"><i class="fas fa-paper-plane"></i> Me contacter</a>
+      <li>
+        <a href="#about">
+          <i class="fas fa-user"></i>
+          <span data-i18n="header.nav.about">À propos</span>
+        </a>  
+      </li>
+
+      <li>
+        <a href="#competences">
+          <i class="fas fa-code"></i>
+          <span data-i18n="header.nav.skills">Compétences</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#experiences">
+          <i class="fas fa-briefcase"></i>
+          <span data-i18n="header.nav.experiences">Expériences</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#formations">
+          <i class="fas fa-graduation-cap"></i>
+          <span data-i18n="header.nav.education">Formations</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#benevolat">
+          <i class="fa-solid fa-hand-holding-heart"></i>
+          <span data-i18n="header.nav.volunteering">Bénévolat</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#contact">
+          <i class="fas fa-envelope"></i>
+          <span data-i18n="header.nav.contact">Contact</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- LANG SELECTOR -->
+  <div class="language-selector">
+    <select id="language-select" aria-label="Select Language" data-i18n="header.language_selector">
+      <option value="fr" data-i18n="header.language_options.fr">français</option>
+      <option value="en" data-i18n="header.language_options.en">anglais</option>
+      <option value="ar" data-i18n="header.language_options.ar">arabe</option>
+    </select>
+  </div>
+
+  <!-- ACTION BUTTONS -->
+  <div class="sup">
+
+    <a href="#" class="download-link">
+      <i class="fas fa-download"></i>
+      <span data-i18n="header.buttons.download_cv">Télécharger mon CV</span>
+    </a>
+
+    <div class="dropmenu" id="cv-dropdown">
+      <a href="Profile.pdf" data-i18n="header.cv_options.professional_1">CV Professionnel 1</a>
+      <a href="Abdoul-rahman abdallah aden.pdf" data-i18n="header.cv_options.professional_2">CV Professionnel 2</a>
     </div>
-  </header>
 
-  <!-- HOME SECTION -->
-  <section id="home" class="home-section">
-    <div class="container">
-      <div class="home-content">
-        <div class="home-left">
-          <h1>Abdoul-Rahman <span>Abdallah Aden</span></h1>
-          
-          <div class="typewriter-wrapper">
-            <div class="static-text">Je suis</div>
-            <div class="dynamic-text-container">
-              <ul class="dynamic-text-list">
-                <li><span>DevOps Engineer & Scrum Master</span></li>
-              </ul>
-            </div>
-          </div>
+    <a href="#contact">
+      <i class="fas fa-paper-plane"></i>
+      <span data-i18n="header.buttons.contact_me">Me contacter</span>
+    </a>
 
-          <div class="description">
-            Tech Lead DevOps/DeSecOps, consultant Microsoft Power Platform et en automatisation CI/CD, orchestration et monitoring, j'accompagne aussi les équipes agiles en tant que Scrum Master pour délivrer des solutions Cloud Native performantes, sécurisées et innovantes.
-          </div>
+  </div>
 
-          <div class="cta-buttons">
-            <a class="btn btn-primary" href="#competences">
-              <i class="fas fa-rocket"></i> Découvrir mes compétences
-            </a>
-            <a class="btn btn-secondary" href="#contact">
-              <i class="fas fa-comments"></i> Discutons de votre projet
-            </a>
-          </div>
+</header>
 
-          <div class="social-media">
-            <a href="https://www.linkedin.com/in/abdoul-rahman-abdallah-aden-6bb2a81b4/" class="social-icon">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="mailto:a.abdallah@teknosure.com" class="social-icon">
-              <i class="fas fa-envelope"></i>
-            </a>
-            <a href="https://x.com/abdel_abden?s=20" class="social-icon">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </div>
+<section id="home" class="home-section">
+  <div class="container">
+    <div class="home-content">
 
-          <div class="stats">
-            <div class="stat-item">
-              <span class="stat-number">50+</span>
-              <span class="stat-label">Projets réalisés</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number">15</span>
-              <span class="stat-label">Années d'expérience</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-number">100%</span>
-              <span class="stat-label">Satisfaction client</span>
-            </div>
-          </div>
+      <!-- LEFT -->
+      <div class="home-left">
+
+        <h1 class="title">
+          <span data-i18n="home.name">Abdoul-Rahman <span>Abdallah Aden</span> </span>
+        </h1>
+
+        <p class="subtitle" data-i18n="home.title">Tech Lead & Scrum Master</p>
+
+        <div class="description" data-i18n="home.description">
+            Tech Lead DevOps, consultant Microsoft Power Platform et en automatisation CI/CD, orchestration et monitoring, j'accompagne aussi les équipes agiles en tant que Scrum Master pour délivrer des solutions Cloud Native performantes, sécurisées et innovantes.
         </div>
-        <div class="home-right">
-          <img src="abdourahman.png" alt="Abdoul-Rahman Abdallah Aden">
+        
+        <!-- BUTTONS -->
+        <div class="cta-buttons">
+
+          <a class="btn btn-primary cta-skill" href="#competences">
+            <i class="fas fa-rocket"></i>
+            <span data-i18n="home.buttons.discover_skills">Découvrir mes compétences</span>
+          </a>
+
+          <a class="btn btn-secondary cta-contact" href="#contact">
+            <i class="fas fa-comments"></i>
+            <span data-i18n="home.buttons.discuss_project">Discutons de votre projet</span>
+          </a>
+
         </div>
+
+        <!-- SOCIAL -->
+        <div class="social-media">
+
+          <a href="https://www.linkedin.com/in/abdoul-rahman-abdallah-aden-6bb2a81b4/" class="social-icon linkedin">
+            <i class="fab fa-linkedin-in"></i>
+            <span data-i18n="home.social.linkedin"></span>
+          </a>
+
+          <a href="mailto:a.abdallah@teknosure.com" class="social-icon email">
+            <i class="fas fa-envelope"></i>
+            <span data-i18n="home.social.email"></span>
+          </a>
+
+          <a href="https://x.com/abdel_abden?s=20" class="social-icon x">
+            <i class="fab fa-twitter"></i>
+            <span data-i18n="home.social.twitter"></span>
+          </a>
+
+        </div>
+
+        <!-- STATS -->
+        <div class="stats">
+
+          <div class="stat-item stat-item-projets">
+            <span class="stat-number" data-i18n="home.stats.projects.value">50+</span>
+            <span class="stat-label" data-i18n="home.stats.projects.label">Projets réalisés</span>
+          </div>
+
+          <div class="stat-item stat-item-experience">
+            <span class="stat-number" data-i18n="home.stats.experience.value">15</span>
+            <span class="stat-label" data-i18n="home.stats.experience.label">Années d'expériences</span>
+          </div>
+
+          <div class="stat-item stat-item-satisfaction">
+            <span class="stat-number" data-i18n="home.stats.satisfaction.value">100%</span>
+            <span class="stat-label" data-i18n="home.stats.satisfaction.label">Satisfaction client</span>
+          </div>
+
+        </div>
+
       </div>
+
+      <!-- RIGHT -->
+      <div class="home-right">
+        <img src="abdourahman.png" alt="Abdoul-Rahman Abdallah Aden">
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- ABOUT SECTION -->
   <section id="about" class="about-section">
     <div class="container">
       <div class="section-header">
-        <h2>À propos de moi</h2>
-        <p class="subtitle">Tech Lead DevOps expérimenté en automatisation CI/CD, orchestration Docker/Kubernetes et développement Microsoft Power Platform</p>
+        <h2 data-i18n="about.title">À propos de moi</h2>
+        <p class="subtitle" data-i18n="about.subtitle">Tech Lead DevOps expérimenté en automatisation CI/CD, orchestration Docker/Kubernetes et développement Microsoft Power Platform</p>
       </div>
 
       <div class="about-content">
         <div class="about-left">
           <div class="about-card">
-            <h3 class="card-title">Parcours professionnel</h3>
-            <p>
+            <h3 class="card-title" data-i18n="about.sections.career.title">Parcours professionnel</h3>
+            <p class="card-description" data-i18n="about.sections.career.description">
               Fort d'une formation <strong>DevOps</strong> avancée et d'une expérience significative chez <strong>Teknosure et Talan</strong>, je me spécialise dans le leadership technique DevOps, l'automatisation CI/CD et le développement de solutions Microsoft Power Platform.<br><br>
               Mon expertise couvre l'ensemble de la chaîne DevOps moderne, avec une maîtrise particulière de l'orchestration de conteneurs (Docker, Kubernetes), des clouds (Azure, AWS), et des outils d'automatisation d'infrastructure (Terraform, Ansible).<br><br>
               Passionné par l'innovation technologique et l'agilité organisationnelle, je m'efforce constamment d'optimiser les processus de développement et d'apporter des solutions techniques robustes aux défis métiers complexes.
@@ -129,46 +202,46 @@
           </div>
 
           <div class="about-card">
-            <h3 class="card-title">Informations personnelles</h3>
+            <h3 class="card-title" data-i18n="about.sections.personal_info.title">Informations personnelles</h3>
             <div class="info-item">
               <i class="fa-solid fa-location-dot"></i>
               <div>
-                <strong>Localisation:</strong>
-                <span>Amiens, Haut-de-France, France</span>
+                <strong data-i18n="about.sections.personal_info.items.location.label">Localisation:</strong>
+                <span data-i18n="about.sections.personal_info.items.location.value">Amiens, Haut-de-France, France</span> 
               </div>
             </div>
             <div class="info-item">
               <i class="fa-solid fa-passport"></i>
               <div>
-                <strong>Nationalité:</strong>
-                <span>Djiboutien</span>
+                <strong data-i18n="about.sections.personal_info.items.nationality.label">Nationalité:</strong>
+                <span data-i18n="about.sections.personal_info.items.nationality.value">Djiboutien</span>
               </div>
             </div>
             <div class="info-item">
               <i class="fa-solid fa-language"></i>
               <div>
                 <strong>Langues:</strong>
-                <span>Français, Anglais, Afar, Somali, Arabe</span>
+                <span data-i18n="about.sections.personal_info.items.languages.value">Français, Anglais, Afar, Somali, Arabe</span>
               </div>
             </div>
           </div>
 
           <div class="about-card">
-            <h3 class="card-title">Objectif Personnel</h3>
-            <p>Continuer à développer ma discipline, ma capacité d'apprentissage et mon équilibre de vie, afin d'être performant dans mon travail tout en restant épanoui. J'accorde beaucoup d'importance à la curiosité, à la progression continue et à l'engagement dans des projets qui ont un impact positif.</p>
+            <h3 class="card-title" data-i18n="about.sections.personal_goal.title">Objectif Personnel</h3>
+            <p data-i18n="about.sections.personal_goal.description">Continuer à développer ma discipline, ma capacité d'apprentissage et mon équilibre de vie, afin d'être performant dans mon travail tout en restant épanoui. J'accorde beaucoup d'importance à la curiosité, à la progression continue et à l'engagement dans des projets qui ont un impact positif.</p>
           </div>
         </div>
 
         <div class="about-right">
           <div class="about-card">
-            <h3 class="card-title">Valeurs Professionnelles</h3>
+            <h3 class="card-title" data-i18n="about.sections.professional_values.title">Valeurs Professionnelles</h3>
             <div class="value-item">
               <div class="value-icon">
                 <i class="fas fa-server"></i>
               </div>
               <div class="value-content">
-                <h4>Excellence Technique & DevOps</h4>
-                <p>Déploiement de solutions robustes et automatisées avec une rigueur méthodologique dans chaque projet cloud et DevOps</p>
+                <h4 data-i18n="about.sections.professional_values.items.excellence.title">Excellence Technique & DevOps</h4>
+                <p data-i18n="about.sections.professional_values.items.excellence.description">Déploiement de solutions robustes et automatisées avec une rigueur méthodologique dans chaque projet cloud et DevOps</p>
               </div>
             </div>
             <div class="value-item">
@@ -176,8 +249,8 @@
                 <i class="fas fa-users"></i>
               </div>
               <div class="value-content">
-                <h4>Leadership Agile & Collaboration</h4>
-                <p>Animation d'équipes techniques, partage des connaissances et communication transparente pour une collaboration efficace en environnement agile</p>
+                <h4 data-i18n="about.sections.professional_values.items.leadership.title">Leadership Agile & Collaboration</h4>
+                <p data-i18n="about.sections.professional_values.items.leadership.description">Animation d'équipes techniques, partage des connaissances et communication transparente pour une collaboration efficace en environnement agile</p>
               </div>
             </div>
             <div class="value-item">
@@ -185,8 +258,8 @@
                 <i class="fas fa-rocket"></i>
               </div>
               <div class="value-content">
-                <h4>Innovation & Adaptabilité</h4>
-                <p>Veille technologique constante sur les écosystèmes cloud et DevOps, adoption des architectures modernes et résilientes face aux évolutions du secteur</p>
+                <h4 data-i18n="about.sections.professional_values.items.adaptability.title">Innovation & Adaptabilité</h4>
+                <p data-i18n="about.sections.professional_values.items.adaptability.description">Veille technologique constante sur les écosystèmes cloud et DevOps, adoption des architectures modernes et résilientes face aux évolutions du secteur</p>
               </div>
             </div>
             <div class="value-item">
@@ -194,16 +267,16 @@
                 <i class="fas fa-hands-helping"></i>
               </div>
               <div class="value-content">
-                <h4>Impact Social & Responsabilité</h4>
-                <p>Engagement bénévole actif dans l'inclusion numérique, le mentorat linguistique et le développement communautaire, liant expertise technique et contribution sociétale</p>
+                <h4 data-i18n="about.sections.professional_values.items.social_impact.title">Impact Social & Responsabilité</h4>
+                <p data-i18n="about.sections.professional_values.items.social_impact.description">Engagement bénévole actif dans l'inclusion numérique, le mentorat linguistique et le développement communautaire, liant expertise technique et contribution sociétale</p>
               </div>
             </div>
           </div>
 
           <div class="about-card">
-            <h3 class="card-title">Objectif Professionnel</h3>
-            <p>Devenir un expert <strong>DevOps</strong> capable de concevoir, automatiser et sécuriser des infrastructures cloud à grande échelle. Je souhaite évoluer vers un rôle où je peux contribuer à la fiabilité des systèmes, optimiser les processus de déploiement et accompagner les équipes dans l'adoption des bonnes pratiques DevOps. À moyen terme, j'aimerais également encadrer des projets et participer à l'innovation technologique au sein de mon organisation.</p>
-          </div>
+            <h3 class="card-title" data-i18n="about.sections.professional_goal.title">Objectif Professionnel</h3>
+            <p data-i18n="about.sections.professional_goal.description">Devenir un expert <strong>DevOps</strong> capable de concevoir, automatiser et sécuriser des infrastructures cloud à grande échelle. Je souhaite évoluer vers un rôle où je peux contribuer à la fiabilité des systèmes, optimiser les processus de déploiement et accompagner les équipes dans l'adoption des bonnes pratiques DevOps. À moyen terme, j'aimerais également encadrer des projets et participer à l'innovation technologique au sein de mon organisation.</p>
+          </div>  
         </div>
       </div>
     </div>
@@ -213,8 +286,8 @@
   <section id="competences" class="competences-section">
     <div class="container">
       <div class="section-header">
-        <h2>Compétences techniques</h2>
-        <p class="subtitle">Un savoir-faire technique complet en DevOps, Cloud et automatisation, consolidé par des réalisations concrètes et un apprentissage continu dans les architectures modernes.</p>
+        <h2 class="title-content">Compétences techniques</h2>
+        <p class="subtitle-content">Un savoir-faire technique complet en DevOps, Cloud et automatisation, consolidé par des réalisations concrètes et un apprentissage continu dans les architectures modernes.</p>
       </div>
 
       <div class="skills-summary">

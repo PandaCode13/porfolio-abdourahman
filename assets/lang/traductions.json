@@ -1,0 +1,333 @@
+{
+  "fr": {
+    "header": {
+      "initials": "ARAA",
+      "nav": {
+        "home": "Accueil",
+        "about": "À propos",
+        "skills": "Compétences",
+        "experiences": "Expériences",
+        "education": "Formation",
+        "volunteering": "Bénévolat",
+        "contact": "Contact"
+      },
+      "buttons": {
+        "download_cv": "Télécharger CV",
+        "contact_me": "Me contacter"
+      },
+      "cv_options": {
+        "professional_1": "CV Professionnel 1",
+        "professional_2": "CV Professionnel 2"
+      },
+      "language_options": {
+        "fr": "Français",
+        "en": "English",
+        "ar": "العربية"
+      }
+    },
+    "home": {
+      "greeting": "",
+      "name": "Abdoul-Rahman Abdallah Aden",
+      "title": "Tech Lead & Scrum Master",
+      "description": "Tech Lead DevOps, consultant Microsoft Power Platform et en automatisation CI/CD, orchestration et monitoring, j'accompagne aussi les équipes agiles en tant que Scrum Master pour délivrer des solutions Cloud Native performantes, sécurisées et innovantes.",
+      "buttons": {
+        "discover_skills": "Découvrir mes compétences",
+        "discuss_project": "Discutons de votre projet"
+      },
+      "stats": {
+        "projects": {
+          "value": "50+",
+          "label": "Projets réalisés"
+        },
+        "experience": {
+          "value": "15",
+          "label": "Années d'expérience"
+        },
+        "satisfaction": {
+          "value": "100%",
+          "label": "Satisfaction client"
+        }
+      }
+    },
+    "about": {
+      "title": "À propos de moi",
+      "subtitle": "Tech Lead DevOps expérimenté en automatisation CI/CD, orchestration Docker/Kubernetes et développement Microsoft Power Platform",
+      "sections": {
+        "career": {
+          "title": "Parcours professionnel",
+          "content": "Fort d'une formation DevOps avancée et d'une expérience significative chez Teknosure et Talan, je me spécialise dans le leadership technique DevOps, l'automatisation CI/CD et le développement de solutions Microsoft Power Platform. Mon expertise couvre l'ensemble de la chaîne DevOps moderne, avec une maîtrise particulière de l'orchestration de conteneurs (Docker, Kubernetes), des clouds (Azure, AWS), et des outils d'automatisation d'infrastructure (Terraform, Ansible). Passionné par l'innovation technologique et l'agilité organisationnelle, je m'efforce constamment d'optimiser les processus de développement et d'apporter des solutions techniques robustes aux défis métiers complexes."
+        },
+        "personal_info": {
+          "title": "Informations personnelles",
+          "items": {
+            "location": {
+              "label": "Localisation",
+              "value": "Amiens, Haut-de-France, France"
+            },
+            "nationality": {
+              "label": "Nationalité",
+              "value": "Djiboutien"
+            },
+            "languages": {
+              "label": "Langues",
+              "value": "Français, Anglais, Afar, Somali, Arabe"
+            }
+          }
+        },
+        "personal_goal": {
+          "title": "Objectif Personnel",
+          "content": "Continuer à développer ma discipline, ma capacité d'apprentissage et mon équilibre de vie, afin d'être performant dans mon travail tout en restant épanoui. J'accorde beaucoup d'importance à la curiosité, à la progression continue et à l'engagement dans des projets qui ont un impact positif."
+        },
+        "values": {
+          "title": "Valeurs Professionnelles",
+          "items": [
+            {
+              "title": "Excellence Technique & DevOps",
+              "description": "Déploiement de solutions robustes et automatisées avec une rigueur méthodologique dans chaque projet cloud et DevOps"
+            },
+            {
+              "title": "Leadership Agile & Collaboration",
+              "description": "Animation d'équipes techniques, partage des connaissances et communication transparente pour une collaboration efficace en environnement agile"
+            },
+            {
+              "title": "Innovation & Adaptabilité",
+              "description": "Veille technologique constante sur les écosystèmes cloud et DevOps, adoption des architectures modernes et résilientes face aux évolutions du secteur"
+            },
+            {
+              "title": "Impact Social & Responsabilité",
+              "description": "Engagement bénévole actif dans l'inclusion numérique, le mentorat linguistique et le développement communautaire, liant expertise technique et contribution sociétale"
+            }
+          ]
+        },
+        "professional_goal": {
+          "title": "Objectif Professionnel",
+          "content": "Devenir un expert DevOps capable de concevoir, automatiser et sécuriser des infrastructures cloud à grande échelle. Je souhaite évoluer vers un rôle où je peux contribuer à la fiabilité des systèmes, optimiser les processus de déploiement et accompagner les équipes dans l'adoption des bonnes pratiques DevOps. À moyen terme, j'aimerais également encadrer des projets et participer à l'innovation technologique au sein de mon organisation."
+        }
+      }
+    }
+  },
+  "en": {
+    "header": {
+      "initials": "ARAA",
+      "nav": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "experiences": "Experience",
+        "education": "Education",
+        "volunteering": "Volunteering",
+        "contact": "Contact"
+      },
+      "buttons": {
+        "download_cv": "Download CV",
+        "contact_me": "Contact me"
+      },
+      "cv_options": {
+        "professional_1": "Professional CV 1",
+        "professional_2": "Professional CV 2"
+      },
+      "language_options": {
+        "fr": "Français",
+        "en": "English",
+        "ar": "العربية"
+      }
+    },
+    "home": {
+      "greeting": "",
+      "name": "Abdoul-Rahman Abdallah Aden",
+      "title": "Tech Lead & Scrum Master",
+      "description": "DevOps Tech Lead, Microsoft Power Platform consultant and CI/CD automation, orchestration and monitoring specialist, I also support agile teams as Scrum Master to deliver high-performance, secure and innovative Cloud Native solutions.",
+      "buttons": {
+        "discover_skills": "Discover my skills",
+        "discuss_project": "Let's discuss your project"
+      },
+      "stats": {
+        "projects": {
+          "value": "50+",
+          "label": "Projects completed"
+        },
+        "experience": {
+          "value": "15",
+          "label": "Years of experience"
+        },
+        "satisfaction": {
+          "value": "100%",
+          "label": "Client satisfaction"
+        }
+      },
+      "social": {
+        "linkedin": "LinkedIn",
+        "email": "Email",
+        "twitter": "Twitter"
+      }
+    },
+    "about": {
+      "title": "About me",
+      "subtitle": "Experienced DevOps Tech Lead in CI/CD automation, Docker/Kubernetes orchestration and Microsoft Power Platform development",
+      "sections": {
+        "career": {
+          "title": "Professional background",
+          "content": "With advanced DevOps training and significant experience at Teknosure and Talan, I specialize in DevOps technical leadership, CI/CD automation and Microsoft Power Platform solutions development. My expertise covers the entire modern DevOps chain, with particular mastery of container orchestration (Docker, Kubernetes), clouds (Azure, AWS), and infrastructure automation tools (Terraform, Ansible). Passionate about technological innovation and organizational agility, I constantly strive to optimize development processes and provide robust technical solutions to complex business challenges."
+        },
+        "personal_info": {
+          "title": "Personal information",
+          "items": {
+            "location": {
+              "label": "Location",
+              "value": "Amiens, Hauts-de-France, France"
+            },
+            "nationality": {
+              "label": "Nationality",
+              "value": "Djiboutian"
+            },
+            "languages": {
+              "label": "Languages",
+              "value": "French, English, Afar, Somali, Arabic"
+            }
+          }
+        },
+        "personal_goal": {
+          "title": "Personal Goal",
+          "content": "Continue to develop my discipline, learning capacity and work-life balance, in order to be effective in my work while remaining fulfilled. I place great importance on curiosity, continuous progression and commitment to projects that have a positive impact."
+        },
+        "values": {
+          "title": "Professional Values",
+          "items": [
+            {
+              "title": "Technical Excellence & DevOps",
+              "description": "Deployment of robust and automated solutions with methodological rigor in each cloud and DevOps project"
+            },
+            {
+              "title": "Agile Leadership & Collaboration",
+              "description": "Leading technical teams, knowledge sharing and transparent communication for effective collaboration in an agile environment"
+            },
+            {
+              "title": "Innovation & Adaptability",
+              "description": "Constant technological watch on cloud and DevOps ecosystems, adoption of modern and resilient architectures in the face of sector developments"
+            },
+            {
+              "title": "Social Impact & Responsibility",
+              "description": "Active volunteer commitment in digital inclusion, language mentoring and community development, linking technical expertise and societal contribution"
+            }
+          ]
+        },
+        "professional_goal": {
+          "title": "Professional Goal",
+          "content": "Become a DevOps expert capable of designing, automating and securing large-scale cloud infrastructures. I want to move towards a role where I can contribute to system reliability, optimize deployment processes and support teams in adopting DevOps best practices. In the medium term, I would also like to supervise projects and participate in technological innovation within my organization."
+        }
+      }
+    }
+  },
+  "ar": {
+    "header": {
+      "initials": "ARAA",
+      "nav": {
+        "home": "الرئيسية",
+        "about": "من أنا",
+        "skills": "المهارات",
+        "experiences": "الخبرات",
+        "education": "التعليم",
+        "volunteering": "التطوع",
+        "contact": "اتصل بي"
+      },
+      "buttons": {
+        "download_cv": "تحميل السيرة الذاتية",
+        "contact_me": "اتصل بي"
+      },
+      "cv_options": {
+        "professional_1": "السيرة الذاتية المهنية 1",
+        "professional_2": "السيرة الذاتية المهنية 2"
+      },
+      "language_options": {
+        "fr": "Français",
+        "en": "English",
+        "ar": "العربية"
+      }
+    },
+    "home": {
+      "greeting": "",
+      "name": "عبد الرحمن عبد الله آدن",
+      "title": "قائد تقني و سكروم ماستر",
+      "description": "قائد تقني في ديف أوبس، مستشار منصة مايكروسوفت باور وأتمتة CI/CD، التنسيق والمراقبة، كما أدعم الفرق الرشيقة كسكروم ماستر لتقديم حلول سحابية أصلية عالية الأداء وآمنة ومبتكرة.",
+      "buttons": {
+        "discover_skills": "اكتشف مهاراتي",
+        "discuss_project": "ناقش مشروعك"
+      },
+      "stats": {
+        "projects": {
+          "value": "50+",
+          "label": "مشروع مكتمل"
+        },
+        "experience": {
+          "value": "١٥",
+          "label": "سنوات خبرة"
+        },
+        "satisfaction": {
+          "value": "١٠٠٪",
+          "label": "رضا العملاء"
+        }
+      },
+      "social": {
+        "linkedin": "لينكد إن",
+        "email": "البريد الإلكتروني",
+        "twitter": "تويتر"
+      }
+    },
+    "about": {
+      "title": "من أنا",
+      "subtitle": "قائد تقني ديف أوبس ذو خبرة في أتمتة CI/CD، تنسيق Docker/Kubernetes وتطوير منصة مايكروسوفت باور",
+      "sections": {
+        "career": {
+          "title": "المسيرة المهنية",
+          "content": "بفضل تدريبي المتقدم في ديف أوبس وخبرتي الكبيرة في Teknosure و Talan، أتخصص في القيادة التقنية لديف أوبس، أتمتة CI/CD وتطوير حلول منصة مايكروسوفت باور. تغطي خبرتي سلسلة ديف أوبس الحديثة بأكملها، مع إتقان خاص لتنسيق الحاويات (Docker, Kubernetes)، والسحب (Azure, AWS)، وأدوات أتمتة البنية التحتية (Terraform, Ansible). شغوف بالابتكار التكنولوجي والمرونة التنظيمية، أسعى باستمرار لتحسين عمليات التطوير وتقديم حلول تقنية قوية للتحديات التجارية المعقدة."
+        },
+        "personal_info": {
+          "title": "معلومات شخصية",
+          "items": {
+            "location": {
+              "label": "الموقع",
+              "value": "أميان، أوت دو فرانس، فرنسا"
+            },
+            "nationality": {
+              "label": "الجنسية",
+              "value": "جيبوتي"
+            },
+            "languages": {
+              "label": "اللغات",
+              "value": "الفرنسية، الإنجليزية، العفر، الصومالية، العربية"
+            }
+          }
+        },
+        "personal_goal": {
+          "title": "الهدف الشخصي",
+          "content": "مواصلة تطوير انضباطي وقدرتي على التعلم والتوازن بين العمل والحياة، لأكون فعالاً في عملي مع البقاء مُرضى. أولي أهمية كبيرة للفضول والتقدم المستمر والالتزام بالمشاريع ذات التأثير الإيجابي."
+        },
+        "values": {
+          "title": "القيم المهنية",
+          "items": [
+            {
+              "title": "التميز التقني و ديف أوبس",
+              "description": "نشر حلول قوية وآلية بدقة منهجية في كل مشروع سحابي وديف أوبس"
+            },
+            {
+              "title": "القيادة الرشيقة والتعاون",
+              "description": "قيادة الفرق التقنية ومشاركة المعرفة والتواصل الشفاف للتعاون الفعال في بيئة رشيقة"
+            },
+            {
+              "title": "الابتكار والقدرة على التكيف",
+              "description": "مراقبة تكنولوجية مستمرة لأنظمة السحب وديف أوبس، واعتماد بنى حديثة ومرنة في مواجهة تطورات القطاع"
+            },
+            {
+              "title": "التأثير الاجتماعي والمسؤولية",
+              "description": "التزام تطوعي نشط في الإدماج الرقمي والتوجيه اللغوي وتنمية المجتمع، وربط الخبرة التقنية بالمساهمة المجتمعية"
+            }
+          ]
+        },
+        "professional_goal": {
+          "title": "الهدف المهني",
+          "content": "أن أصبح خبير ديف أوبس قادراً على تصميم وأتمتة وتأمين البنى التحتية السحابية واسعة النطاق. أريد التطور نحو دور يمكنني من المساهمة في موثوقية الأنظمة وتحسين عمليات النشر ودعم الفرق في تبني أفضل ممارسات ديف أوبس. على المدى المتوسط، أرغب أيضاً في الإشراف على المشاريع والمشاركة في الابتكار التكنولوجي داخل مؤسستي."
+        }
+      }
+    }
+  }
+}
