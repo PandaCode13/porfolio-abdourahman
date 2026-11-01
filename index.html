@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,80 +11,111 @@
 </head>
 <body>
 
-<header>
+<header class="site-header">
 
-  <h3 data-i18n="header.initials">ARAA</h3>
+  <div class="header-inner container">
 
-  <nav>
-    <ul>
-      <li>
-        <a href="#home">
-          <i class="fas fa-home"></i>
-          <span data-i18n="header.nav.home">Accueil</span>
-        </a>
-      </li>
-
-      <li>
-        <a href="#about">
-          <i class="fas fa-user"></i>
-          <span data-i18n="header.nav.about">À propos</span>
-        </a>  
-      </li>
-
-      <li>
-        <a href="#competences">
-          <i class="fas fa-code"></i>
-          <span data-i18n="header.nav.skills">Compétences</span>
-        </a>
-      </li>
-
-      <li>
-        <a href="#experiences">
-          <i class="fas fa-briefcase"></i>
-          <span data-i18n="header.nav.experiences">Expériences</span>
-        </a>
-      </li>
-
-      <li>
-        <a href="#formations">
-          <i class="fas fa-graduation-cap"></i>
-          <span data-i18n="header.nav.education">Formations</span>
-        </a>
-      </li>
-
-      <li>
-        <a href="#benevolat">
-          <i class="fa-solid fa-hand-holding-heart"></i>
-          <span data-i18n="header.nav.volunteering">Bénévolat</span>
-        </a>
-      </li>
-
-      <li>
-        <a href="#contact">
-          <i class="fas fa-envelope"></i>
-          <span data-i18n="header.nav.contact">Contact</span>
-        </a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- ACTION BUTTONS -->
-  <div class="sup">
-
-    <a href="#" class="download-link">
-      <i class="fas fa-download"></i>
-      <span data-i18n="header.buttons.download_cv">Télécharger mon CV</span>
+    <a href="#home" class="brand" aria-label="ARAA, retour à l'accueil">
+      <span class="brand-mark" data-i18n="header.initials">ARAA</span>
     </a>
 
-    <div class="dropmenu" id="cv-dropdown">
-      <a href="Profile.pdf" data-i18n="header.cv_options.professional_1">CV Professionnel 1</a>
-      <a href="Abdoul-rahman abdallah aden.pdf" data-i18n="header.cv_options.professional_2">CV Professionnel 2</a>
+    <button
+      class="menu-toggle"
+      id="menu-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="primary-navigation"
+      aria-label="Ouvrir le menu de navigation"
+    >
+      <span class="menu-toggle-icon" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </button>
+
+    <div class="header-panel" id="primary-navigation">
+
+      <nav class="primary-nav" aria-label="Navigation principale">
+        <ul>
+          <li>
+            <a href="#home">
+              <i class="fas fa-home" aria-hidden="true"></i>
+              <span data-i18n="header.nav.home">Accueil</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#about">
+              <i class="fas fa-user" aria-hidden="true"></i>
+              <span data-i18n="header.nav.about">À propos</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#competences">
+              <i class="fas fa-code" aria-hidden="true"></i>
+              <span data-i18n="header.nav.skills">Compétences</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#experiences">
+              <i class="fas fa-briefcase" aria-hidden="true"></i>
+              <span data-i18n="header.nav.experiences">Expériences</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#formations">
+              <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+              <span data-i18n="header.nav.education">Formations</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#benevolat">
+              <i class="fa-solid fa-hand-holding-heart" aria-hidden="true"></i>
+              <span data-i18n="header.nav.volunteering">Bénévolat</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#contact">
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              <span data-i18n="header.nav.contact">Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="sup">
+
+        <button
+          class="download-link"
+          id="cv-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="cv-dropdown"
+        >
+          <i class="fas fa-download" aria-hidden="true"></i>
+          <span data-i18n="header.buttons.download_cv">Télécharger mon CV</span>
+          <i class="fas fa-chevron-down cv-chevron" aria-hidden="true"></i>
+        </button>
+
+        <div class="dropmenu" id="cv-dropdown">
+          <a href="Profile.pdf" data-i18n="header.cv_options.professional_1">CV Professionnel 1</a>
+          <a href="Abdoul-rahman abdallah aden.pdf" data-i18n="header.cv_options.professional_2">CV Professionnel 2</a>
+        </div>
+
+        <a href="#contact" class="contact-link">
+          <i class="fas fa-paper-plane" aria-hidden="true"></i>
+          <span data-i18n="header.buttons.contact_me">Me contacter</span>
+        </a>
+
+      </div>
+
     </div>
-
-    <a href="#contact">
-      <i class="fas fa-paper-plane"></i>
-      <span data-i18n="header.buttons.contact_me">Me contacter</span>
-    </a>
 
   </div>
 
@@ -125,18 +156,18 @@
         <!-- SOCIAL -->
         <div class="social-media">
 
-          <a href="https://www.linkedin.com/in/abdoul-rahman-abdallah-aden-6bb2a81b4/" class="social-icon linkedin">
-            <i class="fab fa-linkedin-in"></i>
+          <a href="https://www.linkedin.com/in/abdoul-rahman-abdallah-aden-6bb2a81b4/" class="social-icon linkedin" aria-label="Profil LinkedIn">
+            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
             <span data-i18n="home.social.linkedin"></span>
           </a>
 
-          <a href="mailto:a.abdallah@teknosure.com" class="social-icon email">
-            <i class="fas fa-envelope"></i>
+          <a href="mailto:a.abdallah@teknosure.com" class="social-icon email" aria-label="Envoyer un email">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
             <span data-i18n="home.social.email"></span>
           </a>
 
-          <a href="https://x.com/abdel_abden?s=20" class="social-icon x">
-            <i class="fab fa-twitter"></i>
+          <a href="https://x.com/abdel_abden?s=20" class="social-icon x" aria-label="Profil X (Twitter)">
+            <i class="fab fa-twitter" aria-hidden="true"></i>
             <span data-i18n="home.social.twitter"></span>
           </a>
 
@@ -166,7 +197,16 @@
 
       <!-- RIGHT -->
       <div class="home-right">
-        <img src="abdourahman.png" alt="Abdoul-Rahman Abdallah Aden">
+        <img
+          src="assets/images/abdourahman-480.jpg"
+          srcset="assets/images/abdourahman-480.jpg 480w, assets/images/abdourahman-800.jpg 800w"
+          sizes="(max-width: 767px) 88vw, (max-width: 1023px) 60vw, 500px"
+          alt="Portrait d'Abdoul-Rahman Abdallah Aden"
+          width="480"
+          height="480"
+          fetchpriority="high"
+          decoding="async"
+        >
       </div>
 
     </div>
@@ -474,7 +514,7 @@
         <div class="experience-card">
           <div class="experience-header">
             <div class="company-info">
-              <img src="teknosure.png" alt="Teknosure" class="company-logo">
+              <img src="assets/images/logo-teknosure.png" alt="Logo Teknosure" class="company-logo" width="160" height="66" loading="lazy" decoding="async">
               <div>
                 <h3 class="company-name">Teknosure</h3>
                 <div class="job-meta">
@@ -540,7 +580,7 @@
         <div class="experience-card">
           <div class="experience-header">
             <div class="company-info">
-              <img src="m2i.png" alt="M2i" class="company-logo">
+              <img src="assets/images/logo-m2i.png" alt="Logo M2i Formation" class="company-logo" width="160" height="160" loading="lazy" decoding="async">
               <div>
                 <h3 class="company-name">M2i Formation</h3>
                 <div class="job-meta">
@@ -581,7 +621,7 @@
         <div class="experience-card">
           <div class="experience-header">
             <div class="company-info">
-              <img src="talan.png" alt="Talan" class="company-logo">
+              <img src="assets/images/logo-talan.png" alt="Logo Talan" class="company-logo" width="160" height="161" loading="lazy" decoding="async">
               <div>
                 <h3 class="company-name">Talan</h3>
                 <div class="job-meta">
@@ -794,7 +834,6 @@
       de la communication digitale et à la visibilité des actions communautaires.
     </p>
   </div>
-  <br>
 
   <!-- Community Interface Association of East Africa in Belgium -->
   <div class="benevolat-card">
@@ -810,7 +849,6 @@
       à l’éducation et à l’engagement communautaire en Belgique.
     </p>
   </div>
-<br>
 
   <!-- Formateur – Enseignement du français -->
   <div class="benevolat-card">
@@ -826,7 +864,6 @@
       adapté à des publics multiculturels.
     </p>
   </div>
-<br>
 
   <!-- FAFA POUR L'EUROPE -->
   <div class="benevolat-card">
@@ -841,69 +878,76 @@
       des sites internet de l’organisation. Contribution aux actions citoyennes 
       et sociales à travers le numérique et la communication digitale.
     </p>
-  </div><br>
+  </div>
 
 </div>
-    
+    </div>
   </section>
 
-  <section class="contact" id="contact">
+  <section class="contact" id="contact" aria-labelledby="contact-title">
     <div class="container">
       <div class="section-header">
-        <h2>Contactez-moi</h2>
+        <h2 id="contact-title">Contactez-moi</h2>
         <p class="subtitle">Je suis ouvert à de nouvelles opportunités et collaborations. N'hésitez pas à me contacter pour discuter de projets passionnants ou pour toute question.</p>
       </div>
+
       <div class="elementsContacts">
+
         <div class="contact-info">
-        <div class="contact-item">
-          <i class="fas fa-envelope"></i>
-          <span>
-            <a href="mailto:abdoulrahmana82@gmail.com">
-              abdoulrahmana82@gmail.com
-            </a>
-          </span>
+          <div class="contact-item">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+            <span>
+              <a href="mailto:abdoulrahmana82@gmail.com">
+                abdoulrahmana82@gmail.com
+              </a>
+            </span>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-phone" aria-hidden="true"></i>
+            <span>
+              <a href="tel:+33780453807">
+                +33 07 80 45 38 07
+              </a>
+            </span>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            <span>Amiens, Haut-de-France, France</span>
+          </div>
         </div>
-        <div class="contact-item">
-          <i class="fas fa-phone"></i>
-          <span>
-            <a href="tel:+33780453807">
-              +33 07 80 45 38 07
-            </a>
-          </span>
+
+        <div class="contact-form">
+          <form id="contact-form">
+
+            <div class="form-group">
+              <label for="nom_user">Nom :</label>
+              <input type="text" id="nom_user" name="nom" autocomplete="family-name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="prenom_user">Prénom :</label>
+              <input type="text" id="prenom_user" name="prenom" autocomplete="given-name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email_user">Email :</label>
+              <input type="email" id="email_user" name="email" autocomplete="email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message_user">Message :</label>
+              <textarea id="message_user" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit">Envoyer</button>
+
+          </form>
         </div>
-        <div class="contact-item">
-          <i class="fas fa-map-marker-alt"></i>
-          <span>Amiens, Haut-de-France, France</span>
-        </div>
-      </div>
-      <div class="contact-form">
-        <form id="contact-form">
-  <div class="form-group">
-    <label>Nom :</label>
-    <input type="text" id="nom_user" required>
-  </div>
-
-  <div class="form-group">
-    <label>Prénom :</label>
-    <input type="text" id="prenom_user" required>
-  </div>
-
-  <div class="form-group">
-    <label>Email :</label>
-    <input type="email" id="email_user" required>
-  </div>
-
-  <div class="form-group">
-    <label>Message :</label>
-    <textarea id="message_user" rows="5" required></textarea>
-  </div>
-
-  <button type="submit">Envoyer</button>
-</form>
 
       </div>
     </div>
-    
   </section>
 
   <!-- FOOTER SECTION -->
@@ -926,15 +970,15 @@
       <div class="footer-contact-details">
         <h3>Contact</h3>
         <div class="contact-item">
-          <i class="fas fa-envelope"></i>
+          <i class="fas fa-envelope" aria-hidden="true"></i>
           <span>abdoulrahmana82@gmail.com</span>
         </div>
         <div class="contact-item">
-          <i class="fas fa-phone"></i>
+          <i class="fas fa-phone" aria-hidden="true"></i>
           <span>+33 07 80 45 38 07</span>
         </div>
         <div class="contact-item">
-          <i class="fas fa-map-marker-alt"></i>
+          <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
           <span>Amiens, Haut-de-France, France</span>
         </div>
       </div>
@@ -943,13 +987,13 @@
       <div class="footer-nav">
         <h3>Navigation</h3>
         <ul class="footer-nav-links">
-          <li><a href="#home"><i class="fas fa-chevron-right"></i> Accueil</a></li>
-          <li><a href="#about"><i class="fas fa-chevron-right"></i> À propos</a></li>
-          <li><a href="#competences"><i class="fas fa-chevron-right"></i> Compétences</a></li>
-          <li><a href="#experiences"><i class="fas fa-chevron-right"></i> Expériences</a></li>
-          <li><a href="#formations"><i class="fas fa-chevron-right"></i> Formation</a></li>
-          <li><a href="#benevolat"><i class="fas fa-chevron-right"></i> Bénévolat</a></li>
-          <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+          <li><a href="#home"><i class="fas fa-chevron-right" aria-hidden="true"></i> Accueil</a></li>
+          <li><a href="#about"><i class="fas fa-chevron-right" aria-hidden="true"></i> À propos</a></li>
+          <li><a href="#competences"><i class="fas fa-chevron-right" aria-hidden="true"></i> Compétences</a></li>
+          <li><a href="#experiences"><i class="fas fa-chevron-right" aria-hidden="true"></i> Expériences</a></li>
+          <li><a href="#formations"><i class="fas fa-chevron-right" aria-hidden="true"></i> Formation</a></li>
+          <li><a href="#benevolat"><i class="fas fa-chevron-right" aria-hidden="true"></i> Bénévolat</a></li>
+          <li><a href="#contact"><i class="fas fa-chevron-right" aria-hidden="true"></i> Contact</a></li>
         </ul>
       </div>
       
@@ -965,14 +1009,14 @@
           </a>
         </div>
         <div class="footer-social">
-          <a href="https://www.linkedin.com/in/abdoul-rahman-abdallah-aden-6bb2a81b4/" class="social-link">
-            <i class="fab fa-linkedin-in"></i>
+          <a href="https://www.linkedin.com/in/abdoul-rahman-abdallah-aden-6bb2a81b4/" class="social-link" aria-label="Profil LinkedIn">
+            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
           </a>
-          <a href="mailto:abdoulrahmana82@gmail.com" class="social-link">
-            <i class="fas fa-envelope"></i>
+          <a href="mailto:abdoulrahmana82@gmail.com" class="social-link" aria-label="Envoyer un email">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
           </a>
-          <a href="https://x.com/abdel_abden?s=20" class="social-link">
-            <i class="fab fa-twitter"></i>
+          <a href="https://x.com/abdel_abden?s=20" class="social-link" aria-label="Profil X (Twitter)">
+            <i class="fab fa-twitter" aria-hidden="true"></i>
           </a>
         </div>
       </div>
